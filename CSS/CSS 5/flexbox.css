@@ -1,0 +1,92 @@
+#container{
+    background-color: aliceblue ;
+    height: 300px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;                      /* Left to Right
+    /* flex-direction: row-reverse;             /*Right to left */
+    /* flex-direction: column;                     /*Top to buttom */
+    /* flex-direction: column-reverse; */       /*Buttom to Top*/
+    /* justify-content: flex-start;  */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;*/
+    justify-content: flex-start;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+                                              
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#violet{
+    background-color: violet;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#indigo{
+    background-color: indigo;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#blue{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#green{
+    background-color: green;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#orange{
+    background-color: orange;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#red{
+    background-color: red;
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -1,0 +1,104 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+
+h1,
+h3{
+    color: #b92b27;
+}
+
+h3{
+    background-color: antiquewhite !important;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+.post a {
+    color: red;
+    background-color: yellowgreen;
+}
+
+nav ul li a {
+    color: darkgoldenrod;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: lightblue;
+}
+
+div > input{
+    background-color: aquamarine;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+#myId p{
+    color: hotpink;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: hotpink;
+    color: red;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: burlywood;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color:darksalmon;
+}
+
+h3{
+    background-color: yellow;
+}
+
+h3{
+    background-color: blue;
+}
+
